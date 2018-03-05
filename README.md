@@ -135,7 +135,7 @@ They will be populated with IDs that reference the new derived tables.
       --shape TEXT               Custom shape for the DB table - format is
                                  csvcol:dbcol(TYPE),...
       --filename-column TEXT     Add a column with this name and populate with CSV
-                                 file name
+                                 file name.
       --no-index-fks             Skip adding index to foreign key columns created
                                  using --extract-column (default is to add them)
       --version                  Show the version and exit.
